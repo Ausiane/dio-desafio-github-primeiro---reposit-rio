@@ -1,0 +1,84 @@
+             INCLUIR REPOSITÓRIO DO SITE GITHUB
+___________________________________________________________
+
+comando:
+git clone [URL DO PROJETO]
+
+Exemplo:
+
+$ git clone https://github.com/Ausiane/dio-desafio-github-primeiro---reposit-rio.git
+
+mensagem que será exibida:
+          
+ "$ git clone https://github.com/Ausiane/dio-                desafio-github-primeiro---reposit-rio.git
+Cloning into 'dio-desafio-github-primeiro---reposit-rio'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+Resolving deltas: 100% (1/1), done.
+"
+|
+|
+
+comando:
+cd [mais o nome do projeto. Igual tá na pasta]
+exemplo:  cd dio-desafio-github-primeiro---reposit-rio
+
+mensagem exibida:
+
+   "/dio-desafio-github-primeiro---reposit-rio (main)"
+
+|
+|
+
+    MOSTRAR O STATUS DAS MUDANÇA/E SITUAÇÃO DO REPOSITÓRIO
+___________________________________________________________
+comando:
+git stauts
+
+mensagem exibida:
+     
+     "On branch main
+Your branch is up to date with 'origin/main'."
+                    ou
+se tiver alguma alteração como: criaçao de uma pasta, vai exibir uma mensagem (em vermelho) da necessidade de incluir essa pasta local no repositório
+
+mensagem exibida:
+     "Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "Introdu\303\247\303\243o Git_GitHub/"
+
+INCLUIR UMA PASTA/ATUALIZAR  PARA SOLUCIONAR A MENSAGEM "Untracked files"
+_________________________________________________________
+solução usando o comando:
+git add .
+
+mensagem exibida:
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   "Introdu\303\247\303\243o Git_GitHub/primeiros passos.txt"
+
+*PARA CONSEGUIR VER ESSA ALTERAÇÃO TEM QUE SOLICITAR O STATUS
+|
+|
+|
+|
+    COMANDOS PARA INCLUIR ATUALIZAÇÃO NO REPOSITÓRIO GLOBAL
+___________________________________________________________
+
+comando:
+git commit -m "Inclusão das anotações do cuso de Git/GitHub"
+
+mensagem exibida:
+[main 47cd9a6] Inclusão das anotações do cuso de Git/GitHub
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "Introdu\303\247\303\243o Git_GitHub/primeiros passos.txt"
+|
+|
+

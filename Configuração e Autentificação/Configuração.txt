@@ -1,0 +1,30 @@
+     EXIBIR LISTA DE CONFIGURAÇÕES
+    _______________________________
+
+Comando:
+Git Config
+
+OBS: vai exibir uma lista de configuração
+____________
+|
+|
+|
+     CONFIGURAR NOME E E-MAIL
+   _________________________________
+
+comando:
+git config --global user.name "seu nome"
+git config --global user.email "seu email"
+*pra ver a alteração precisa colocar o comando: git status
+
+comando:
+git config init.defautBranch
+
+mensagem exibida:
+master
+
+comando:
+git config --global init.defautBranch main
+
+comando:
+git config --global --list
