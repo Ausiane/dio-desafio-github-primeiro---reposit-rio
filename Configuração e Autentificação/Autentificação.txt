@@ -1,3 +1,12 @@
 comando:
-git config credential.helper store
+git clone [URL DO PROJETO]
+
+*ir gerar o Token no site
+
+comando:
 git config --global credential.helper store
+git config --global --show-origin credential.helper 
+
+comando:
+cat .gitconfig
+cat .git-credentials [Token]
